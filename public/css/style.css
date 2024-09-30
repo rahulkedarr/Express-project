@@ -1,0 +1,87 @@
+/* use to stick footer in bottom start*/
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+/* use to stick footer in bottom end*/
+
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+    border-bottom: 3px solid #F7F7F7;
+}
+.fa-earth-americas{
+    color: rgb(166, 221, 221);
+}
+
+.f-info-links a{
+text-decoration: none;
+    color:#222222;
+    margin:0rem 0.5rem;
+}
+.f-info-links a:hover {
+    text-decoration: underline;
+    color: #f5f6f8;
+}
+
+.f-info{
+    text-align: center;
+    height: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F7F7F7;
+}
+
+.f-info-social, .f-info-links, .f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* card style */
+.card{
+    border: none !important;
+    .card-img-top{
+        border-radius: 1rem !important;
+        width: 100% !important;
+        object-fit: cover !important;
+        height: 15rem;
+    }
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-tags{
+    text-decoration: none;
+    color: black !important;
+}
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.5;
+    background-color: white;
+}
+
+/* use to hide inpute number arrow */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-control:focus {
+    border-color: green !important;
+    box-shadow: none !important;
+}

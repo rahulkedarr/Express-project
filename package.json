@@ -1,0 +1,20 @@
+{
+  "name": "explore-unknowncity-with-us",
+  "version": "1.0.0",
+  "description": "explore-unknown-city-with-us-in-affordable-prices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rahul kedar",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "ejs": "^3.1.10",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.5.2"
+  }
+}
